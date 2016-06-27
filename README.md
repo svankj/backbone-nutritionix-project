@@ -28,10 +28,16 @@ Folders:
 *	`/src/` contains:
 	* 	`css/style.css` the css file readable
 	* 	`js/app.js` the application JS readable
+	* 	`js/collections/nutritionixcollection.js` the Collection JS readable
+	* 	`js/models/nutritionixmodel.js` the Model JS readable
+	* 	`js/views/nutritionixview.js` the View JS readable
 	* 	`index.html` the readable HTML file
 *	`/dist/` contains:
 	* 	`css/style.css` the css file minimized
 	* 	`js/app.js` the application JS minimized
+	* 	`js/collections/nutritionixcollection.js` the Collection JS minimized
+	* 	`js/models/nutritionixmodel.js` the Model JS minimized
+	* 	`js/views/nutritionixview.js` the View JS minimized
 	* 	`index.html` the minimized HTML file
 *	main directory contains:
 	*	`README.md` the README file, documentation file

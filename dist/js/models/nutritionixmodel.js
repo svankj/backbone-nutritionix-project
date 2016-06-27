@@ -1,0 +1,1 @@
+$(function(){"use strict";window.app=window.app||{},window.app.Food=Backbone.Model.extend({defaults:{title:"",calories:0,checked:!1},toggle:function(){this.set("checked",!this.get("checked"))}}),window.app.FoodStore=Backbone.Model.extend({defaults:{title:"",calories:0}})});

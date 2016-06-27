@@ -7,7 +7,8 @@ body {
 	color: #4f4f4f;
 }
 
-a, a:visited {
+a,
+a:visited {
 	outline: none;
 	color: #389dc1;
 }
@@ -16,7 +17,7 @@ a:hover {
 	text-decoration: none;
 }
 
-section, footer, header, aside {
+section, header {
 	display: block;
 }
 
@@ -25,11 +26,11 @@ ul {
 }
 
 /* Food left style */
-#foods-left {
+.foods-left {
 	list-style: none;
 }
 
-#foods-left li {
+.food-left {
 	background-color: #3f3f91;
 	box-shadow: 0 1px 1px #eee;
 	font-size: 22px;
@@ -40,12 +41,12 @@ ul {
 	cursor: pointer;
 }
 
-#foods-left li span {
+.food-left-span {
 	float: right;
 	opacity: 0.6;
 }
 
-#foods-left li input[type=checkbox] {
+.food-left-input {
 	border: 1px solid #ccc;
 	box-shadow: 1px 1px 1px #ccc;
 	margin-right: 10px;
@@ -56,11 +57,11 @@ ul {
 }
 
 /* Food right style */
-#foods-right {
+.foods-right {
 	list-style: none;
 }
 
-#foods-right li {
+.food-right {
 	background-color: #333030;
 	box-shadow: 0 1px 1px #eee;
 	font-size: 22px;
@@ -70,29 +71,18 @@ ul {
 	border-radius: 4px;
 }
 
-#foods-right li span {
+.food-right-span {
 	float: right;
 	opacity: 0.6;
 }
 
-/* Total left style */
-#total-left {
-	font-size: 24px;
-	text-align: right;
-}
-
-#total-left span {
-	display: inline-block;
-	min-width: 70px;
-}
-
 /* Total right style */
-#total-right {
+.total-right {
 	font-size: 24px;
 	text-align: right;
 }
 
-#total-right span {
+.total-right-span {
 	display: inline-block;
 	min-width: 70px;
 }
@@ -115,7 +105,7 @@ ul {
 	width: 50%;
 }
 
-#headTitle {
+.head-title {
 	margin-left: 10px;
 }
 
@@ -137,7 +127,7 @@ ul {
 	width: 24px;
 	height: 24px;
 	border: .25rem solid;
-	border-color: #000000;
+	border-color: #000;
 	animation: spin 1s infinite linear;
 }
 
@@ -146,20 +136,25 @@ ul {
 	.error-msg {
 		width: 95%;
 	}
-	#foods-left li, #foods-right li {
+
+	.food-left, .food-right {
 		font-size: 12px;
 	}
-	#foods-left li input[type=checkbox] {
+
+	.food-left-input {
 		margin-left: -10px;
 		width: 12px;
 		height: 12px;
 	}
-	#total-left, #total-right {
+
+	.total-right {
 		font-size: 14px;
 	}
-	#headTitle {
+
+	.head-title {
 		font-size: 14px;
 	}
+
 	.search {
 		width: 110px;
 	}
@@ -169,10 +164,12 @@ ul {
 	.error-msg {
 		width: 70%;
 	}
-	#foods-left li, #foods-right li {
+
+	.food-left, .food-right {
 		font-size: 15px;
 	}
-	#foods-left li input[type=checkbox] {
+
+	.food-left-input {
 		margin-left: -10px;
 		width: 14px;
 		height: 14px;
@@ -183,10 +180,12 @@ ul {
 	.error-msg {
 		width: 50%;
 	}
-	#foods-left li, #foods-right li {
+
+	.food-left, .food-right {
 		font-size: 18px;
 	}
-	#foods-left li input[type=checkbox] {
+
+	.food-left-input {
 		margin-left: -10px;
 		width: 16px;
 		height: 16px;
